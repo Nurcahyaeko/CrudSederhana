@@ -20,6 +20,8 @@ public class EditActivity extends AppCompatActivity {
     EditText edtId, edtNama, edtNomor;
     Button btUpdate, btDelete, btBack;
     ApiInterface mApiInterface;
+
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
